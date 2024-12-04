@@ -1,6 +1,6 @@
 # Autocorrect Tool
 
-Autocorrect Tool is a lightweight application that automatically corrects predefined typos as you type. It allows users to manage custom corrections and run the application in the background using a system tray icon similar to the phone Autocorrect.
+Autocorrect Tool is a lightweight application that automatically corrects predefined typos as you type similar to the phone Autocorrect. It allows users to manage custom corrections and run the application in the background using a system tray icon.
 
 ![App Screenshot](Screenshot.png) 
 
