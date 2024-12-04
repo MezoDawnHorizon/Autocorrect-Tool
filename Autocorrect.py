@@ -10,8 +10,17 @@ from PIL import Image
 import threading
 import winreg as reg
 
+# Get the AppData path for the current user
+app_data_dir = os.path.join(os.getenv('APPDATA'), 'AutocorrectTool')
+
+# Create the directory if it doesn't exist
+if not os.path.exists(app_data_dir):
+    os.makedirs(app_data_dir)
+
+# Path to the corrections file in the AppData directory
+corrections_file = os.path.join(app_data_dir, 'corrections.json')
+
 # Load or initialize the corrections
-corrections_file = "corrections.json"
 try:
     with open(corrections_file, "r") as file:
         corrections = json.load(file)
