@@ -20,7 +20,7 @@ Autocorrect Tool is a lightweight application that automatically corrects predef
 ## Getting Started
 
 ### Installation
-1. Download the installer from the [Releases](https://github.com/yourusername/autocorrect-tool/releases) page.
+1. Download the installer from the [Releases](https://github.com/MezoDawnHorizon/Autocorrect-Tool/releases) page.
 2. Run the installer and follow the instructions.
 
 ### Usage
