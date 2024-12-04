@@ -39,6 +39,8 @@ def exit_action(icon, item):
     icon.stop()
     sys.exit()
 
+    
+
 # Autocorrect function
 current_word = ""
 def autocorrect(event):
@@ -150,7 +152,11 @@ def manage_corrections():
 
 # Create the tray icon
 def create_image():
-    return Image.open("icon.png")
+    # Get the directory of the currently running .exe file
+    exe_dir = os.path.dirname(sys.executable)
+    # Construct the full path to icon.png
+    icon_path = os.path.join(exe_dir, "icon.png")
+    return Image.open(icon_path)
 
 def setup_tray():
     def open_manage_corrections():
