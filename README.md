@@ -7,6 +7,8 @@ Autocorrect Tool is a lightweight application that automatically corrects predef
 ---
 ## Note
 - This is my first ever fully completed python project :)
+## Caution
+if your using the v1.0.0
 - You must go to the .exe of the autocorrect tool and in the properties and enable Run this program as adminstrator becauase if not it wont save the correction to the correction.json file
 ---
 
