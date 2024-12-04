@@ -2,8 +2,11 @@
 
 Autocorrect Tool is a lightweight application that automatically corrects predefined typos as you type. It allows users to manage custom corrections and run the application in the background using a system tray icon.
 
-![App Screenshot](screenshot.png) *(Include a screenshot of your app interface)*
+![App Screenshot](Screenshot.png) 
 
+---
+## Note
+- This is my first ever fully completed python project :)
 ---
 
 ## Features
